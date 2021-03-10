@@ -1,0 +1,12 @@
+set one "The cat";
+set two "sat on the mat";
+set sentence one + SPACE + two;
+append sentence "by itself.";
+print sentence;
+printwords sentence;
+printwordcount sentence;
+printlength sentence;
+reverse	sentence;
+print	sentence;
+list;
+exit;
